@@ -6,13 +6,13 @@ Ahmed, Ramy, and Mohamed's Portfolio Website
 Install the following:
 - [docker](https://docs.docker.com/engine/install/)
 - [pyenv](https://github.com/pyenv/pyenv)
-then install python 3.7.6, make it global (read pyenv's documentation for details)
+then install python 3.8.2, make it global (read pyenv's documentation for details)
 - [virtualenvwrapper](https://virtualenvwrapper.readthedocs.io/en/latest/)
 install virtualenvwrapper inside pyenv's python and configure it according to its documentation
-- `$ mkvirtualenv arm_portfolio` to create a virtualenv for the project
+- `$ mkvirtualenv pp` to create a virtualenv for the project (pp=portfolio project)
 - go to the project dir and `$ pip install -r requirements.txt`
 - [docker-compose](https://docs.docker.com/compose/install/)
-then `$ docker-compose up` to run the servers locally
+then `$ docker-compose -f local.yml up` to run the servers locally
 - start coding
 
 *We can run our code on docker without a virtual environment, however, installing the local virtual environment helps us with code completion, linting, and formatting in VS Code (or any editor) which are important factors*
@@ -22,7 +22,7 @@ then `$ docker-compose up` to run the servers locally
 - Go to the project directory
 - Activate the virtualenv `$ workon arm_portfolio`
 - if you want to make sure you've got latest dependencies `$ pip install -r requirements.txt`
-- run the project servers `$ docker-compose up`
+- run the project servers `$ docker-compose -f local.yml up`
 
 ** TODO script to shorten docker-compose commands--- continue this section after the script
 
