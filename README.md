@@ -1,6 +1,8 @@
 # arm_portfolio
 Ahmed, Ramy, and Mohamed's Portfolio Website
 
+![Django CI](https://github.com/shahwan42/arm_portfolio/workflows/Django%20CI/badge.svg?branch=develop)
+
 ## Environment Setup
 
 Install the following:
