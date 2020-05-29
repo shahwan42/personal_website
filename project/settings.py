@@ -48,7 +48,7 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     # Third-party
     # Local
-    "pp.users.apps.UsersConfig",
+    "pw.users.apps.UsersConfig",
 ]
 
 MIDDLEWARE = [
