@@ -140,5 +140,6 @@ cython_debug/
 # vscode
 .vscode/
 
-# static
+# static files
+staticfiles/
 static_root/
