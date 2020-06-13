@@ -19,6 +19,7 @@
     type="text/css" />
   <!-- Core theme CSS (includes Bootstrap)-->
   <link href="{% static 'css/styles.css' %}" rel="stylesheet" />
+  <link href="{% static 'css/base.css' %}" rel="stylesheet" />
 </head>
 
 <body id="page-top">
@@ -44,7 +45,7 @@
   <!-- Masthead-->
   <header class="masthead bg-primary text-white text-center">
     <div class="container d-flex align-items-center flex-column">
-      <!-- Masthead Avatar Image--><img class="masthead-avatar mb-5" src="{% static 'assets/img/avataaars.svg' %}" alt="" />
+      <!-- Masthead Avatar Image--><img class="masthead-avatar mb-5" src="{% static 'assets/img/ahmed.jpeg' %}" alt="Ahmed Shahwan" />
       <!-- Masthead Heading-->
       <h1 class="masthead-heading text-uppercase mb-0">Ahmed Shahwan</h1>
       <!-- Icon Divider-->
@@ -141,27 +142,36 @@
       <!-- About Section Content-->
       <div class="row">
         <div class="col-lg-4 ml-auto">
-          <p class="lead">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the
-            complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy
-            customization.</p>
+          <p class="lead">
+          Ahmed Shahwan is a backend developer with professional experience in the FinTech industry.
+          He's built different systems as part of his freelance work.
+          Coding is a hobby for him, so, you'll find toy or PoC projects that he likes
+          to build to learn new things or practice his knowledge.
+          He is panctual and likes to be organized.
+          Ahmed prefers professional clients that understand what it takes to create a successful business.</p>
         </div>
         <div class="col-lg-4 mr-auto">
-          <p class="lead">You can create your own custom avatar for the masthead, change the icon in the dividers, and
-            add your email address to the contact form to make it fully functional!</p>
+          <p class="lead">
+          Shahwan works with Python, Django and the Django-REST-Framework.
+          He has vast knowledge regarding other technolgies, too.
+          He loves open-source and tries to participate as possible to sustain open-source projects like Django.
+          Ubuntu is his favourite operating system.
+          And E-mail is the best way to start business with him.
+          Reach out for him using the form below.</p>
         </div>
       </div>
       <!-- About Section Button-->
-      <div class="text-center mt-4">
-        <a class="btn btn-xl btn-outline-light" href="https://startbootstrap.com/themes/freelancer/"><i
-            class="fas fa-download mr-2"></i>Free Download!</a>
-      </div>
+      {% comment %} <div class="text-center mt-4">
+        <a class="btn btn-xl btn-outline-light" href="https://github.com/shahwan42/personal_website"><i
+            class="fas fa-download mr-2"></i>Get Source Code!</a>
+      </div> {% endcomment %}
     </div>
   </section>
   <!-- Contact Section-->
   <section class="page-section" id="contact">
     <div class="container">
       <!-- Contact Section Heading-->
-      <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Contact Me</h2>
+      <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Contact Shahwan</h2>
       <!-- Icon Divider-->
       <div class="divider-custom">
         <div class="divider-custom-line"></div>
@@ -218,21 +228,22 @@
         <!-- Footer Location-->
         <div class="col-lg-4 mb-5 mb-lg-0">
           <h4 class="text-uppercase mb-4">Location</h4>
-          <p class="lead mb-0">2215 John Daniel Drive<br />Clark, MO 65243</p>
+          <p class="lead mb-0">Egypt, Cairo, DownTown<br />Egypt, Zagazig, Qawmiya</p>
         </div>
         <!-- Footer Social Icons-->
         <div class="col-lg-4 mb-5 mb-lg-0">
           <h4 class="text-uppercase mb-4">Around the Web</h4>
-          <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-facebook-f"></i></a><a
-            class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-twitter"></i></a><a
-            class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-linkedin-in"></i></a><a
-            class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-dribbble"></i></a>
+          <a class="btn btn-outline-light btn-social mx-1" href="https://www.facebook.com/shahwan42/"><i class="fab fa-fw fa-facebook-f"></i></a><a
+            class="btn btn-outline-light btn-social mx-1" href="https://twitter.com/shahwan42"><i class="fab fa-fw fa-twitter"></i></a><a
+            class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/shahwan42/"><i class="fab fa-fw fa-linkedin-in"></i></a><a
+            class="btn btn-outline-light btn-social mx-1" href="https://dev.to/shahwan42"><i class="fab fa-fw fa-dev"></i></a>
         </div>
         <!-- Footer About Text-->
         <div class="col-lg-4">
-          <h4 class="text-uppercase mb-4">About Freelancer</h4>
-          <p class="lead mb-0">Freelance is a free to use, MIT licensed Bootstrap theme created by <a
-              href="http://startbootstrap.com">Start Bootstrap</a>.</p>
+          <h4 class="text-uppercase mb-4">About Shahwan.me</h4>
+          <p class="lead mb-0">
+            A Personal website that's built by Ahmed Shahwan and available freely on
+            <a href="https://github.com/shahwan42/personal_website">GitHub</a></p>
         </div>
       </div>
     </div>
