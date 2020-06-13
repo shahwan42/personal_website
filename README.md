@@ -4,9 +4,8 @@ This is a personal website for programmers
 
 
 ## TODO
+
+- [x] Pages App
 - [ ] Core App
-- [ ] Pages App
 - [ ] static files
 - [ ] HomePage
-- [ ] LoginView
-- [ ]

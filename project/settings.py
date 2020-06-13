@@ -49,6 +49,7 @@ INSTALLED_APPS = [
     # Third-party
     # Local
     "pw.users.apps.UsersConfig",
+    "pw.pages.apps.PagesConfig",
 ]
 
 MIDDLEWARE = [
@@ -66,7 +67,7 @@ ROOT_URLCONF = "project.urls"
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
-        "DIRS": [],
+        "DIRS": [os.path.join(BASE_DIR, "templates")],
         "APP_DIRS": True,
         "OPTIONS": {
             "context_processors": [
@@ -128,6 +129,8 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
 STATIC_URL = "/static/"
+STATIC_ROOT = os.path.join(BASE_DIR, "static_root")
+STATICFILES_DIRS = (os.path.join(BASE_DIR, "static"),)
 
 # auth user model
 AUTH_USER_MODEL = "users.CustomUser"
